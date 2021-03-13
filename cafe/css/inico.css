@@ -35,6 +35,15 @@ header nav ul li a:hover {
     transition: background-color 1s ease;
 }
 
+footer{
+    padding: 2rem 2rem;
+    background-color: rgb(109, 97, 73);
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
 @media(min-width:600px) {
     header {
         display: flex;
