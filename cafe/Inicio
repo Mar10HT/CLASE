@@ -5,9 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina de Cafe</title>
+    <link rel="stylesheet" href="css/inicio.css">
 </head>
 
 <body>
+    <header>
+        <h1>KOPI LUWAK</h1>
+        <nav>
+            <ul>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">5</a></li>
+                <li><a href="">6</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>CAFE KOPI LUWAK</h2>
+            <h3>"El Cafe De Animales Mas Rico Del Mundo!"</h3>
+
+            <picture>
+                <source>
+                <source>
+                <img src="" alt="">
+            </picture>
+        </section>
+    </main>
 
 </body>
 
