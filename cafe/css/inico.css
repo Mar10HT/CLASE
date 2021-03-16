@@ -16,11 +16,11 @@ header h1 {
     font-weight: bolder;
 }
 
-header nav ul {
+.lista {
     list-style: none;
 }
 
-header nav ul li a {
+.item {
     box-sizing: border-box;
     display: block;
     width: 100%;
@@ -30,14 +30,14 @@ header nav ul li a {
     color: white;
 }
 
-header nav ul li a:hover {
+.item:hover {
     background-color: rgb(73, 70, 63);
     transition: background-color 1s ease;
 }
 
 .heropanel {
     align-items: center;
-    margin: 0px 15rem;
+    margin: 0rem 2rem;
     position: relative;
 }
 
@@ -67,6 +67,55 @@ header nav ul li a:hover {
     -webkit-text-stroke: 2px black;
 }
 
+.subtitulo{
+    position: relative;
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgb(61, 52, 36);
+    
+    padding: 1rem;
+}
+.col-2{
+    display: flex;
+    padding: 5px;
+}
+.col-3{
+    display: flex;
+    margin: 4rem;
+    justify-content: space-between;
+}
+.col-5{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.col-4{
+    margin: 4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.texto{
+    text-align: justify;
+    width: 70%;
+}
+.fa-5x{
+    margin-right: 20px;
+}
+.foto{
+    display: block;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+.foto2{
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
 footer {
     padding: 2rem 2rem;
     background-color: rgb(109, 97, 73);
@@ -82,13 +131,18 @@ footer p {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 100%;
     }
-    header nav ul {
+    .lista{
         display: flex;
         padding: 0px 1rem;
     }
-    header nav ul li a {
+    .item {
         padding: 1rem 1rem;
+    }
+    .imagen{
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -98,11 +152,12 @@ footer p {
         justify-content: space-between;
         align-items: center;
     }
-    ul {
+    .lista {
         display: flex;
     }
     .heropanel img {
-        min-width: 600px;
+        width: 100%;
+        height: auto;
     }
     .heropanel h2 {
         position: absolute;
@@ -110,9 +165,10 @@ footer p {
         text-align: center;
         width: 100%;
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 1rem;
         color: rgb(204, 168, 50);
         -webkit-text-stroke: 2px black;
+
     }
     .heropanel h3 {
         position: absolute;
@@ -126,7 +182,7 @@ footer p {
 }
 
 
-}
+
 @media(min-width:1200px) {
     header {
         display: flex;
